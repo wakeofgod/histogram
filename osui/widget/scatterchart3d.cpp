@@ -76,38 +76,6 @@ void ScatterChart3D::initializeGL()
     };
 */
 
-    /*
-    GLfloat vertices[] = {
-        //正面正方形
-        +1.0, +1.0, +1.0,
-        -1.0, +1.0, +1.0,
-        -1.0, -1.0, +1.0,
-        +1.0, -1.0, +1.0,
-        //背面正方形
-        +1.0, +1.0, -1.0,
-        -1.0, +1.0, -1.0,
-        -1.0, -1.0, -1.0,
-        +1.0, -1.0, -1.0,
-        //4条边
-        +1.0, +1.0, +1.0,
-        +1.0, +1.0, -1.0,
-        //
-        -1.0, +1.0, +1.0,
-        -1.0, +1.0, -1.0,
-        //
-        -1.0, -1.0, +1.0,
-        -1.0, -1.0, -1.0,
-        //
-        +1.0, -1.0, +1.0,
-        +1.0, -1.0, -1.0,
-
-        +1.0, +1.0, +1.0,
-        +1.0, -1.0, +1.0,
-
-        +1.0, +1.0, -1.0,
-        +1.0, -1.0, -1.0,
-    };
-*/
     GLfloat vertices[] = {
         //正面正方形
         +1.0, +1.0, +1.0,
@@ -143,21 +111,6 @@ void ScatterChart3D::initializeGL()
         +1.0, -1.0, -1.0,
     };
 
-    /*
-    float cuboColor[] = {
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        1.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,0.0f,
-        0.0f,0.0f,1.0f
-    };
-    */
     float cuboColor[] = {
         0.0f,0.0f,0.0f,
         0.0f,0.0f,0.0f,
@@ -241,23 +194,6 @@ void ScatterChart3D::paintGL()
        glDrawArrays(GL_LINES, 10, 2);
        glDrawArrays(GL_LINES, 12, 2);
        glDrawArrays(GL_LINES, 14, 2);
-    */
-
-    /*
-       glDrawArrays(GL_LINES, 0, 2);
-       glDrawArrays(GL_LINES, 1, 2);
-       glDrawArrays(GL_LINES, 2, 2);
-
-       glDrawArrays(GL_LINES, 4, 2);
-       glDrawArrays(GL_LINES, 5, 2);
-       glDrawArrays(GL_LINES, 6, 2);
-
-       glDrawArrays(GL_LINES, 8, 2);
-       glDrawArrays(GL_LINES, 10, 2);
-       glDrawArrays(GL_LINES, 12, 2);
-       glDrawArrays(GL_LINES, 14, 2);
-       glDrawArrays(GL_LINES, 16, 2);
-       glDrawArrays(GL_LINES, 18, 2);
     */
 
     glDrawArrays(GL_LINES, 0, 2);
